@@ -35,3 +35,16 @@ add any value just add index number as your wish */
 
 // let noPetInBd = pets.splice(0, 2)
 // console.log(noPetInBd)
+// let str = "Please locate where 'locate' occurs!";
+// let whereIndex = str.indexOf("where");
+// console.log(whereIndex)
+
+// let x = NaN;
+// console.log(typeof x)
+
+// let stupidString = 'a' + 'b' + + 'b' + 'b';
+// console.log(stupidString.toUpperCase())
+
+let first = "100";
+let second = "9";
+console.log(first / second)
