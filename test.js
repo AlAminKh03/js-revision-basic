@@ -45,6 +45,67 @@ add any value just add index number as your wish */
 // let stupidString = 'a' + 'b' + + 'b' + 'b';
 // console.log(stupidString.toUpperCase())
 
-let first = "100";
-let second = "9";
-console.log(first / second)
+// let first = "100";
+// let second = "9";
+// console.log(first / second)
+
+// let x = "my name is chikki";
+// for (i = 0; i < x.length; i++) {
+//     x = "my name is chacha";
+// }
+// console.log(x);
+
+// const students = ["Zainul", "Farida", "Al Amin", "Enam", "Mishal"]
+// students.sort()
+// console.log(students)
+
+// const rollNumber = ['3', '4', '5', '7', '1', '9', '10', '20', '18', '15']
+
+// const accendingNumber = rollNumber.sort(chotoThekeBoro)
+
+// function chotoThekeBoro(a, b) {
+//     return a - b;
+// }
+
+// console.log(accendingNumber)
+
+// function isLeapYear(year) {
+//     if ((year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0)) {
+//         console.log(`${year} is leap year`)
+//     }
+//     else {
+//         console.log(`${year} is not a leap year`)
+//     }
+// }
+
+// isLeapYear(2017);
+
+// HOW MANY VOWELS ARE THERE 
+// const vowels = ['a', 'e', 'i', 'o', 'u']
+
+// function countVowels(sentence) {
+//     let count = 0;
+//     const individualValue = Array.from(sentence.toLowerCase())
+
+//     individualValue.forEach(function (value) {
+//         if (vowels.includes(value)) {
+//             count++
+//         }
+//     })
+//     return count;
+// }
+
+// console.log(countVowels("MY NAME IS AL AMIN KHAN"))
+
+
+// FINDING OUT duplicate NUMBER 
+const numbers = [1, 2, 5, 6, 3, 6, 4, 6, 5, 4, 4, 8, 9, 5, 4, 3, 6, 5];
+
+const duplicateCounting = numbers.filter(findingDuplicate)
+
+function findingDuplicate(value) {
+    return value === 5;
+}
+
+console.log(duplicateCounting)
+
