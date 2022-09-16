@@ -99,13 +99,35 @@ add any value just add index number as your wish */
 
 
 // FINDING OUT duplicate NUMBER 
-const numbers = [1, 2, 5, 6, 3, 6, 4, 6, 5, 4, 4, 8, 9, 5, 4, 3, 6, 5];
+// const numbers = [1, 2, 5, 6, 3, 6, 4, 6, 5, 4, 4, 8, 9, 5, 4, 3, 6, 5];
 
-const duplicateCounting = numbers.filter(findingDuplicate)
+// const duplicateCounting = numbers.filter(findingDuplicate)
 
-function findingDuplicate(value) {
-    return value === 5;
-}
+// function findingDuplicate(value) {
+//     return value === 5;
+// }
 
-console.log(duplicateCounting)
+// console.log(duplicateCounting)
+// function isArray(myArray) {
+//     console.log(myArray.constructor.toString().indexOf('Array') > -1)
+// }
 
+// isArray(['2', '3', '4'])
+
+// console.log(typeof (typeof))
+
+// let myText = "I have to be more 16620"
+
+// let countingO = myText.match(/[6]/ig)
+// console.log(countingO)
+// console.log(isNaN('35'))
+// let myValue = 5;
+// if (0 < 5) {
+//     myValue = 10
+// }
+// console.log(myValue)
+
+const names = ["al amin", " enam", "Mishal"]
+
+const abbu = names.push("Zainul")
+console.dir(abbu);
