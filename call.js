@@ -11,4 +11,4 @@ const amarPhone = {
 }
 //  এখন যদি এই amarphone থেকে mobilephone এর ফাংশন বা মেথড এক্সেস করতে চাই তাহলে call eplai korte hobe 
 console.log(mobilePhone.vaberText.call(amarPhone));
-// আমরা ইচ্ছা করলে প্যারামিটার ও ইউস করতে পারি 
+// আমরা ইচ্ছা করলে প্যারামিটার ও ইউস করতে পারি তখন সেটা দাইনাম্যাক্লী ইউস করতে হবে না 
